@@ -8,6 +8,7 @@ import {
   Scripts,
 } from "@tanstack/react-router";
 import { useEffect, type ReactNode } from "react";
+import { Linkedin } from "lucide-react";
 
 import appCss from "../styles.css?url";
 
@@ -173,10 +174,19 @@ function SiteFooter() {
             </div>
           ))}
         </div>
-        <div className="mt-14 flex flex-col gap-2 border-t border-border pt-6 text-xs text-muted-foreground sm:flex-row sm:items-center sm:justify-between">
+        <div className="mt-14 flex flex-col gap-3 border-t border-border pt-6 text-xs text-muted-foreground sm:flex-row sm:items-center sm:justify-between">
           <p>&copy; {new Date().getFullYear()} SuperAI Base</p>
           <a href="mailto:hello@superaibase.com" className="hover:text-foreground">
             hello@superaibase.com
+          </a>
+          <a
+            href="https://www.linkedin.com"
+            aria-label="LinkedIn"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-muted-foreground transition-colors hover:text-foreground"
+          >
+            <Linkedin size={18} />
           </a>
         </div>
       </div>
