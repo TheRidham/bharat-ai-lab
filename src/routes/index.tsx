@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import logo from "../assets/logo.png.asset.json";
+import logo from "../assets/logo-transparent.svg.asset.json";
 
 const title = "SuperAI Base — The human intelligence layer for AI in India";
 const description =
