@@ -115,17 +115,20 @@ function Index() {
           <span className="text-foreground">Indian enterprises.</span> We help them train AI on
            proprietary workflows and identify and evaluate the right models (or combination) for
            their specific needs.
+           <br />
+           <br />
+           <br />
+           Help us make AI better for India!&nbsp;
+           <a className="underline underline-offset-4" href="mailto:hello@superaibase.com">
+             Join Expert Network
+           </a>
         </p>
 
         <h2 className="pt-8 text-xl"></h2>
         <p></p>
         <p></p>
         <p></p>
-        <p className="text-foreground">
-          
-          <a className="underline underline-offset-4" href="mailto:hello@superaibase.com">
-          </a>
-        </p>
+        <p className="text-foreground"></p>
       </div>
     </article>
   );
