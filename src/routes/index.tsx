@@ -34,27 +34,32 @@ function Index() {
       </h1>
 
       <div className="mt-10 space-y-6 text-[1.0625rem] leading-8 text-foreground/85">
-        <p></p>
-        <p></p>
+        <p>
+          AI is becoming remarkably capable. The world's best models can reason, write code,
+          analyze documents, use tools and solve increasingly complex problems.
+        </p>
+        <p>
+          But there is a simple truth about AI:
+        </p>
         <p className="text-foreground">
-          AI is becoming remarkably capable, but there is a simple truth about it:&nbsp;
-          <br />
-          A model can only become as good as the data, feedback and environments it learns from.
+          <em>A model can only become as good as the data, feedback and environments it learns from.</em>
         </p>
         <p>
           Today, much of that human intelligence comes from a handful of developed markets,
           particularly the US and Europe.
         </p>
-        <p>That matters when you bring these models to India.</p>
+        <p>
+          <strong>That matters when you bring these models to India.</strong>
+        </p>
         <p>
           A doctor in India may see dengue and malaria every monsoon. An American doctor may rarely
-          encounter either. An Indian lawyer doesn't just know the law. They know how that law
-          actually works in Indian courts.
+          encounter either. An Indian lawyer doesn't just know the law — they know{" "}
+          <em>how that law actually works in Indian courts.</em>
         </p>
         <p>The profession may be the same. The expert's mental model is not.</p>
         <p>
-          The model doesn't need another language or another knowledge book. It needs another world
-          , backed by the judgment of local experts.
+          The model doesn't need another language or another knowledge book. It needs{" "}
+          <u>another world</u> — backed by the judgment of local experts.
         </p>
 
         <h2 className="pt-8 text-xl">We teach AI how India works.</h2>
@@ -67,65 +72,66 @@ function Index() {
           and judgment into intelligence that AI models can learn from.
         </p>
         <p>
-          Not just the right answer, but how an expert gets there, what they consider, and where a
-          model gets it wrong.
+          <em>
+            Not just the right answer, but how an expert gets there, what they consider, and where a
+            model gets it wrong.
+          </em>
         </p>
 
         <h2 className="pt-8 text-xl">What we build</h2>
         <p>
-           <span className="text-foreground">Expert Network.</span>&nbsp;High-quality human feedback and
-          expert reasoning from verified Indian professionals.
+          <span className="font-semibold text-foreground">Expert Network.</span>&nbsp;High-quality
+          human feedback and expert reasoning from verified Indian professionals.
         </p>
         <p>
-          <span className="text-foreground">Custom Evaluations.</span> Local benchmarks that test
-          whether a model understands Indian nuances, and custom evaluations that measure how well
-          it performs on your specific use case.
+          <span className="font-semibold text-foreground">Custom Evaluations.</span> Local benchmarks
+          that test whether a model understands Indian nuances, and custom evaluations that measure
+          how well it performs on your specific use case.
         </p>
         <p>
-          <span className="text-foreground">India-Native Environments.</span> Practice environments
-           built around popular platforms, enterprise systems and regulatory workflows,
+          <span className="font-semibold text-foreground">India-Native Environments.</span> Practice
+          environments built around popular platforms, enterprise systems and regulatory workflows,
           allowing AI agents to learn and be tested on real Indian work.
         </p>
         <p>
-          <span className="text-foreground">Proprietary Data.</span> We help enterprises turn their
-          operational knowledge and workflows into high-quality training data while maintaining
-          appropriate privacy and controls.
+          <span className="font-semibold text-foreground">Proprietary Data.</span> We help enterprises
+          turn their operational knowledge and workflows into high-quality training data while
+          maintaining appropriate privacy and controls.
         </p>
 
         <h2 className="pt-8 text-xl">Why this matters</h2>
-        <p>The next generation of AI won't just answer questions. It will do the work.</p>
+        <p>
+          The next generation of AI won't just answer questions. <strong>It will do the work.</strong>
+        </p>
         <p>
           And the quality of that work will depend on how well AI understands the world it is
           operating in.
         </p>
         <p>
           The frontier models of today are being shaped by the expertise and environments of the
-          markets they come from. We want to make sure India shapes them too.
+          markets they come from. <em>We want to make sure India shapes them too.</em>
         </p>
 
         <h2 className="pt-8 text-xl">Who we work with</h2>
-         <p>We work with frontier AI companies building AI that is genuinely useful in India</p>
+        <p>We work with frontier AI companies building AI that is genuinely useful in India</p>
         <p>
-          <span className="text-foreground">Global, sovereign, and open-source AI companies.</span>{" "}
-           We help them with hiring experts, accessing datasets, and independent evaluations to improve regional utility and local relevance.
+          <span className="font-semibold text-foreground">
+            Global, sovereign, and open-source AI companies.
+          </span>{" "}
+          We help them with hiring experts, accessing datasets, and independent evaluations to
+          improve regional utility and local relevance.
         </p>
         <p>
-          <span className="text-foreground">Indian enterprises.</span> We help them train AI on
-            proprietary workflows and and evaluate the right models (or combination) for their specific needs.
-           <br />
-           <br />
-           <br />
-           Help us make AI better for India!&nbsp;
-           <a className="underline underline-offset-4" href="mailto:hello@superaibase.com">
-             Join Expert Network
-           </a>
+          <span className="font-semibold text-foreground">Indian enterprises.</span> We help them
+          train AI on proprietary workflows and evaluate the right models (or combination) for their
+          specific needs.
         </p>
-
-        <h2 className="pt-8 text-xl"></h2>
-        <p></p>
-        <p></p>
-        <p></p>
-        <p className="text-foreground"></p>
+        <p className="text-foreground">
+          <strong>Help us make AI better for India!</strong>&nbsp;
+          <a className="underline underline-offset-4" href="mailto:hello@superaibase.com">
+            Join Expert Network
+          </a>
+        </p>
       </div>
     </article>
   );
