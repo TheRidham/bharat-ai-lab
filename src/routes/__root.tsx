@@ -123,27 +123,24 @@ const footerGroups = [
     ],
   },
   {
-     title: "\n",
+    title: "Research",
     links: [
-       { label: "", href: "mailto:research@superaibase.com" },
-       { label: "", href: "mailto:research@superaibase.com" },
-       { label: "", href: "mailto:research@superaibase.com" },
-       { label: "", href: "mailto:research@superaibase.com" },
+      { label: "Satya Benchmarks", href: "mailto:research@superaibase.com" },
+      { label: "Bharat Environments", href: "mailto:research@superaibase.com" },
+      { label: "Custom Evaluations", href: "mailto:research@superaibase.com" },
     ],
   },
   {
     title: "Enterprise",
     links: [
-       { label: "Hire Experts", href: "mailto:enterprise@superaibase.com" },
-       { label: "Access Data", href: "mailto:enterprise@superaibase.com" },
-       { label: "Satya Benchmarks", href: "mailto:enterprise@superaibase.com" },
-       { label: "Bharat Environments\n\n\n", href: "mailto:enterprise@superaibase.com" },
+      { label: "Hire Experts", href: "mailto:enterprise@superaibase.com" },
+      { label: "Access Datasets", href: "mailto:enterprise@superaibase.com" },
+      { label: "Data Monetization", href: "mailto:enterprise@superaibase.com" },
     ],
   },
   {
     title: "Company",
     links: [
-       { label: "Research", href: "/" },
       { label: "Careers", href: "mailto:careers@superaibase.com" },
       { label: "Privacy policy", href: "mailto:hello@superaibase.com" },
       { label: "Terms of service", href: "mailto:hello@superaibase.com" },
