@@ -108,12 +108,13 @@ function Index() {
         <p>
           <span className="text-foreground">Global, sovereign, and open-source AI companies.</span>{" "}
           We help them access experts, datasets, and independent evaluations to improve regional
+           with hiring experts, accessing datasets, and independent evaluations to improve regional
            utility and local relevance.
         </p>
         <p>
           <span className="text-foreground">Indian enterprises.</span> We help them train AI on
-          proprietary workflows and identify and evaluate the right models (or combination) for
-          their specific needs.
+           proprietary workflows and identify and evaluate the right models (or combination) for
+           their specific needs.
         </p>
 
         <h2 className="pt-8 text-xl"></h2>
