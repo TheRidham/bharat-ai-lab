@@ -1,4 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { Linkedin, Youtube } from "lucide-react";
 import logo from "../assets/logo.png.asset.json";
 
 const title = "SuperAI Base — The human intelligence layer for AI in India";
