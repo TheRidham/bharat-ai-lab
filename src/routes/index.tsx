@@ -1,4 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { Linkedin, Youtube } from "lucide-react";
 import logo from "../assets/logo.png.asset.json";
 
 const title = "SuperAI Base — The human intelligence layer for AI in India";
@@ -19,17 +20,17 @@ export const Route = createFileRoute("/")({
 
 function Index() {
   return (
-    <article className="mx-auto max-w-2xl px-6 pt-20 pb-24">
-      <div className="flex items-center gap-3">
+    <article className="mx-auto max-w-2xl px-6 pt-24 pb-24">
+      <div className="flex flex-col items-center gap-4 text-center">
         <img
           src={logo.url}
           alt="SuperAI Base logo"
-          className="h-9 w-9 mix-blend-multiply"
+          className="h-16 w-16 mix-blend-multiply"
         />
-        <span className="text-lg font-medium tracking-tight">SuperAI Base</span>
+        <span className="text-2xl font-medium tracking-tight">SuperAI Base</span>
       </div>
 
-      <h1 className="mt-14 text-3xl leading-snug tracking-tight sm:text-4xl">
+      <h1 className="mt-12 text-center text-2xl font-semibold leading-snug tracking-tight sm:text-3xl">
         The human intelligence layer for making AI native to India.
       </h1>
 
@@ -129,6 +130,44 @@ function Index() {
         <p></p>
         <p></p>
         <p className="text-foreground"></p>
+      </div>
+
+      <div className="mt-12 flex items-center justify-center gap-5 text-muted-foreground">
+        <a
+          href="https://www.linkedin.com"
+          aria-label="LinkedIn"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="transition-colors hover:text-foreground"
+        >
+          <Linkedin size={20} />
+        </a>
+        <a
+          href="https://www.x.com"
+          aria-label="X"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="transition-colors hover:text-foreground"
+        >
+          <svg
+            width="18"
+            height="18"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            aria-hidden="true"
+          >
+            <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+          </svg>
+        </a>
+        <a
+          href="https://www.youtube.com"
+          aria-label="YouTube"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="transition-colors hover:text-foreground"
+        >
+          <Youtube size={20} />
+        </a>
       </div>
     </article>
   );
