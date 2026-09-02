@@ -122,12 +122,12 @@ const footerGroups = [
     ],
   },
   {
-     title: "",
+     title: "\n",
     links: [
        { label: "", href: "mailto:research@superaibase.com" },
        { label: "", href: "mailto:research@superaibase.com" },
        { label: "", href: "mailto:research@superaibase.com" },
-       { label: "Bharat Environments\n\n\n", href: "mailto:research@superaibase.com" },
+       { label: "", href: "mailto:research@superaibase.com" },
     ],
   },
   {
@@ -136,7 +136,7 @@ const footerGroups = [
        { label: "Hire Experts", href: "mailto:enterprise@superaibase.com" },
        { label: "Access Data", href: "mailto:enterprise@superaibase.com" },
        { label: "Satya Benchmarks", href: "mailto:enterprise@superaibase.com" },
-       { label: "Bharat Environments", href: "mailto:enterprise@superaibase.com" },
+       { label: "Bharat Environments\n\n\n", href: "mailto:enterprise@superaibase.com" },
     ],
   },
   {
