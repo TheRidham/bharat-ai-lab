@@ -24,7 +24,7 @@ function Index() {
         <img
           src={logo.url}
           alt="SuperAI Base logo"
-          className="h-16 w-16 mix-blend-multiply"
+          className="h-20 w-20"
         />
         <span className="text-2xl font-medium tracking-tight">SuperAI Base</span>
       </div>
