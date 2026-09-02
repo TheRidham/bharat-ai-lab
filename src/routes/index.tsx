@@ -37,7 +37,7 @@ function Index() {
         <p></p>
         <p></p>
         <p className="text-foreground">
-          AI is becoming remarkably capable. But there is a simple truth about AI:&nbsp;
+          AI is becoming remarkably capable, but there is a simple truth about it:&nbsp;
           <br />
           A model can only become as good as the data, feedback and environments it learns from.
         </p>
