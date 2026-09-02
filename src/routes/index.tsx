@@ -34,12 +34,11 @@ function Index() {
       </h1>
 
       <div className="mt-10 space-y-6 text-[1.0625rem] leading-8 text-foreground/85">
-        <p>
-          AI is becoming remarkably capable. The world's best models can reason, write code,
-          analyze documents, use tools and solve increasingly complex problems.
-        </p>
-        <p>But there is a simple truth about AI:</p>
+        <p></p>
+        <p></p>
         <p className="text-foreground">
+          AI is becoming remarkably capable. But there is a simple truth about AI:&nbsp;
+          <br />
           A model can only become as good as the data, feedback and environments it learns from.
         </p>
         <p>
@@ -55,7 +54,7 @@ function Index() {
         <p>The profession may be the same. The expert's mental model is not.</p>
         <p>
           The model doesn't need another language or another knowledge book. It needs another world
-          — backed by the judgment of local experts.
+          , backed by the judgment of local experts.
         </p>
 
         <h2 className="pt-8 text-xl">We teach AI how India works.</h2>
@@ -74,7 +73,7 @@ function Index() {
 
         <h2 className="pt-8 text-xl">What we build</h2>
         <p>
-          <span className="text-foreground">Expert Network.</span> High-quality human feedback and
+           <span className="text-foreground">Expert Network.</span>&nbsp;High-quality human feedback and
           expert reasoning from verified Indian professionals.
         </p>
         <p>
@@ -84,7 +83,7 @@ function Index() {
         </p>
         <p>
           <span className="text-foreground">India-Native Environments.</span> Practice environments
-          built around real government portals, enterprise systems and regulatory workflows,
+           built around popular platforms, enterprise systems and regulatory workflows,
           allowing AI agents to learn and be tested on real Indian work.
         </p>
         <p>
@@ -109,7 +108,7 @@ function Index() {
         <p>
           <span className="text-foreground">Global, sovereign, and open-source AI companies.</span>{" "}
           We help them access experts, datasets, and independent evaluations to improve regional
-          utility and local relevance.
+           utility and local relevance.
         </p>
         <p>
           <span className="text-foreground">Indian enterprises.</span> We help them train AI on
@@ -117,17 +116,13 @@ function Index() {
           their specific needs.
         </p>
 
-        <h2 className="pt-8 text-xl">Build with us</h2>
-        <p>Frontier models cannot become truly useful in India through public data alone.</p>
-        <p>
-          The next leap in AI requires something harder to find: expert judgment and the knowledge
-          embedded in how organizations actually work.
-        </p>
-        <p>That is what we are building.</p>
+        <h2 className="pt-8 text-xl"></h2>
+        <p></p>
+        <p></p>
+        <p></p>
         <p className="text-foreground">
-          Help us make AI better for India —{" "}
+          
           <a className="underline underline-offset-4" href="mailto:hello@superaibase.com">
-            hello@superaibase.com
           </a>
         </p>
       </div>
