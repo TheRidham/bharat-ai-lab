@@ -105,7 +105,7 @@ function Index() {
         </p>
 
         <h2 className="pt-8 text-xl">Who we work with</h2>
-        <p>We work with frontier AI companies building AI that is genuinely useful in India.</p>
+         <p>We work with frontier AI companies building AI that is genuinely useful in India</p>
         <p>
           <span className="text-foreground">Global, sovereign, and open-source AI companies.</span>{" "}
            We help them with hiring experts, accessing datasets, and independent evaluations to improve regional utility and local relevance.
