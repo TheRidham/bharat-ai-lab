@@ -20,17 +20,17 @@ export const Route = createFileRoute("/")({
 
 function Index() {
   return (
-    <article className="mx-auto max-w-2xl px-6 pt-20 pb-24">
-      <div className="flex items-center gap-3">
+    <article className="mx-auto max-w-2xl px-6 pt-24 pb-24">
+      <div className="flex flex-col items-center gap-4 text-center">
         <img
           src={logo.url}
           alt="SuperAI Base logo"
-          className="h-9 w-9 mix-blend-multiply"
+          className="h-16 w-16 mix-blend-multiply"
         />
-        <span className="text-lg font-medium tracking-tight">SuperAI Base</span>
+        <span className="text-2xl font-medium tracking-tight">SuperAI Base</span>
       </div>
 
-      <h1 className="mt-14 text-3xl leading-snug tracking-tight sm:text-4xl">
+      <h1 className="mt-12 text-center text-2xl font-semibold leading-snug tracking-tight sm:text-3xl">
         The human intelligence layer for making AI native to India.
       </h1>
 
