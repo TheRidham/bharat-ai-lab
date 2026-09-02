@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import logo from "../assets/logo.png.asset.json";
+import logo from "../assets/logo-transparent.svg.asset.json";
 
 const title = "SuperAI Base — The human intelligence layer for AI in India";
 const description =
@@ -24,7 +24,7 @@ function Index() {
         <img
           src={logo.url}
           alt="SuperAI Base logo"
-          className="h-16 w-16 mix-blend-multiply"
+          className="h-20 w-20"
         />
         <span className="text-2xl font-medium tracking-tight">SuperAI Base</span>
       </div>
