@@ -122,27 +122,27 @@ const footerGroups = [
     ],
   },
   {
-    title: "Research",
+     title: "\n",
     links: [
-      { label: "Setu Benchmarks", href: "mailto:research@superaibase.com" },
-      { label: "Setu-Agents", href: "mailto:research@superaibase.com" },
-      { label: "Setu-Legal", href: "mailto:research@superaibase.com" },
-      { label: "Bharat Environments", href: "mailto:research@superaibase.com" },
+       { label: "", href: "mailto:research@superaibase.com" },
+       { label: "", href: "mailto:research@superaibase.com" },
+       { label: "", href: "mailto:research@superaibase.com" },
+       { label: "", href: "mailto:research@superaibase.com" },
     ],
   },
   {
     title: "Enterprise",
     links: [
-      { label: "For enterprises", href: "mailto:enterprise@superaibase.com" },
-      { label: "Human data", href: "mailto:enterprise@superaibase.com" },
-      { label: "Model evaluations", href: "mailto:enterprise@superaibase.com" },
-      { label: "Contact sales", href: "mailto:enterprise@superaibase.com" },
+       { label: "Hire Experts", href: "mailto:enterprise@superaibase.com" },
+       { label: "Access Data", href: "mailto:enterprise@superaibase.com" },
+       { label: "Satya Benchmarks", href: "mailto:enterprise@superaibase.com" },
+       { label: "Bharat Environments\n\n\n", href: "mailto:enterprise@superaibase.com" },
     ],
   },
   {
     title: "Company",
     links: [
-      { label: "Mission", href: "/" },
+       { label: "Research", href: "/" },
       { label: "Careers", href: "mailto:careers@superaibase.com" },
       { label: "Privacy policy", href: "mailto:hello@superaibase.com" },
       { label: "Terms of service", href: "mailto:hello@superaibase.com" },

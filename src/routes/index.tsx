@@ -108,14 +108,11 @@ function Index() {
         <p>We work with frontier AI companies building AI that is genuinely useful in India.</p>
         <p>
           <span className="text-foreground">Global, sovereign, and open-source AI companies.</span>{" "}
-          We help them access experts, datasets, and independent evaluations to improve regional
-           with hiring experts, accessing datasets, and independent evaluations to improve regional
-           utility and local relevance.
+           We help them with hiring experts, accessing datasets, and independent evaluations to improve regional utility and local relevance.
         </p>
         <p>
           <span className="text-foreground">Indian enterprises.</span> We help them train AI on
-           proprietary workflows and identify and evaluate the right models (or combination) for
-           their specific needs.
+            proprietary workflows and and evaluate the right models (or combination) for their specific needs.
            <br />
            <br />
            <br />
