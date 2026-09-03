@@ -35,25 +35,20 @@ function Index() {
 
       <div className="mt-10 space-y-6 text-[1.0625rem] leading-8 text-foreground/85">
         <p>
-          AI is becoming remarkably capable. The world's best models can reason, write code,
-          analyze documents, use tools and solve increasingly complex problems.
+          The world's best AI models are becoming remarkably capable. But most of the human expertise
+          shaping them still comes from a handful of developed markets, particularly the US and Europe
         </p>
-        <p>
-          But there is a simple truth about AI:
-        </p>
+        <p></p>
         <p className="text-foreground">
-          <em>A model can only become as good as the data, feedback and environments it learns from.</em>
+          <em></em>
         </p>
-        <p>
-          Today, much of that human intelligence comes from a handful of developed markets,
-          particularly the US and Europe.
-        </p>
+        <p></p>
         <p>
           <strong>That matters when you bring these models to India.</strong>
         </p>
         <p>
           A doctor in India may see dengue and malaria every monsoon. An American doctor may rarely
-          encounter either. An Indian lawyer doesn't just know the law — they know{" "}
+          encounter either. An Indian lawyer doesn't just know the law, they know{" "}
           <em>how that law actually works in Indian courts.</em>
         </p>
         <p>The profession may be the same. The expert's mental model is not.</p>
@@ -89,7 +84,7 @@ function Index() {
           how well it performs on your specific use case.
         </p>
         <p>
-          <span className="font-semibold text-foreground">India-Native Environments.</span> Practice
+          <span className="font-semibold text-foreground">India-Native RL Environments.</span> Practice
           environments built around popular platforms, enterprise systems and regulatory workflows,
           allowing AI agents to learn and be tested on real Indian work.
         </p>
