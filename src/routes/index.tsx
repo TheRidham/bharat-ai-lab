@@ -38,14 +38,10 @@ function Index() {
           The world's best AI models are becoming remarkably capable. But most of the human expertise
           shaping them still comes from a handful of developed markets, particularly the US and Europe
         </p>
-        <p></p>
         <p className="text-foreground">
           <em></em>
         </p>
         <p></p>
-        <p>
-          <strong>That matters when you bring these models to India.</strong>
-        </p>
         <p>
           A doctor in India may see dengue and malaria every monsoon. An American doctor may rarely
           encounter either. An Indian lawyer doesn't just know the law, they know{" "}
