@@ -98,7 +98,7 @@ function Index() {
           They know <em>how that law actually works in Indian courts.</em>
         </p>
         <p>
-          AI needs to learn <u>those mental models.</u>
+          AI needs to learn those mental models.
         </p>
 
         <h2 className="pt-8 text-xl">What we build</h2>
