@@ -1,9 +1,13 @@
 import { createFileRoute } from "@tanstack/react-router";
 import logo from "../assets/logo-transparent.svg.asset.json";
+import { ExpertNetworkDialog } from "@/components/ExpertNetworkDialog";
 
-const title = "SuperAI Base — The human intelligence layer for AI in India";
+const title = "SuperAI Base — Teaching AI how India works";
 const description =
-  "SuperAI Base builds the expert networks, evaluations and training environments that make AI better at real work in India.";
+  "SuperAI Base builds the expert networks, datasets, evaluations and training environments that help AI models understand and perform real work in India.";
+
+const whatsappUrl =
+  "https://wa.me/919873027250?text=hey%21%20would%20like%20to%20know%20more%20about%20SuperAI%20Base";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -17,112 +21,141 @@ export const Route = createFileRoute("/")({
   component: Index,
 });
 
+const primaryCta =
+  "inline-flex items-center justify-center rounded-full bg-primary px-5 py-2.5 text-sm text-primary-foreground transition-opacity hover:opacity-90";
+const secondaryCta =
+  "inline-flex items-center justify-center rounded-full border border-border px-5 py-2.5 text-sm text-foreground transition-colors hover:bg-secondary";
+
+const buildBlocks = [
+  {
+    title: "Expert Network",
+    body: "India's highest-quality professional expertise.",
+  },
+  {
+    title: "Proprietary Data",
+    body: "Real-world knowledge and workflows turned into training data.",
+  },
+  {
+    title: "Custom Evaluations",
+    body: "Benchmarks that measure whether AI actually works in India.",
+  },
+  {
+    title: "India-Native RL Environments",
+    body: "Realistic environments where AI agents can practice Indian work.",
+  },
+];
+
 function Index() {
   return (
     <article className="mx-auto max-w-2xl px-6 pt-24 pb-24">
       <div className="flex flex-col items-center gap-4 text-center">
-        <img
-          src={logo.url}
-          alt="SuperAI Base logo"
-          className="h-20 w-20"
-        />
+        <img src={logo.url} alt="SuperAI Base logo" className="h-20 w-20" />
         <span className="text-2xl font-medium tracking-tight">SuperAI Base</span>
       </div>
 
       <h1 className="mt-12 text-center text-2xl font-normal leading-snug tracking-tight sm:text-3xl">
-        The human intelligence layer for making AI native to India.
+        Teaching AI how India works.
       </h1>
 
       <div className="mt-10 space-y-6 text-[1.0625rem] leading-8 text-foreground/85">
         <p>
-          The world's best AI models are becoming remarkably capable. But most of the human expertise
-          shaping them still comes from a handful of developed markets, particularly the US and Europe
+          The world&apos;s best AI models are becoming remarkably capable. But the expertise and
+          environments shaping them still come{" "}
+          <em>disproportionately from a handful of developed markets.</em>
         </p>
-        <p className="text-foreground">
-          <em></em>
-        </p>
-        <p></p>
         <p>
-          A doctor in India may see dengue and malaria every monsoon. An American doctor may rarely
-          encounter either. An Indian lawyer doesn't just know the law, they know{" "}
-          <em>how that law actually works in Indian courts.</em>
-        </p>
-        <p>The profession may be the same. The expert's mental model is not.</p>
-        <p>
-          The model doesn't need another language or another knowledge book. It needs{" "}
-          <u>another world</u> — backed by the judgment of local experts.
+          SuperAI Base builds the expert networks, datasets, evaluations, and training environments
+          that help AI models <strong>understand and perform real work in India.</strong>
         </p>
 
-        <h2 className="pt-8 text-xl">We teach AI how India works.</h2>
+        <div className="flex flex-wrap gap-3 pt-2">
+          <a href={whatsappUrl} target="_blank" rel="noopener noreferrer" className={primaryCta}>
+            Build with us
+          </a>
+          <ExpertNetworkDialog>
+            <button type="button" className={secondaryCta}>
+              Join Expert Network
+            </button>
+          </ExpertNetworkDialog>
+        </div>
+
+        <h2 className="pt-8 text-xl">The thesis</h2>
         <p>
-          SuperAI Base builds the expert networks, evaluations and training environments that make
-          AI better at real work in India.
+          <strong>The profession may be the same. The expert&apos;s mental model is not.</strong>
         </p>
         <p>
-          We bring together India's top 1% professionals across domains, and turn their knowledge
-          and judgment into intelligence that AI models can learn from.
+          India creates different contexts, constraints, institutions, regulations, workflows, and
+          edge cases.
         </p>
         <p>
-          <em>
-            Not just the right answer, but how an expert gets there, what they consider, and where a
-            model gets it wrong.
-          </em>
+          A doctor in India may see dengue and malaria every monsoon.
+          <br />
+          An American doctor may rarely encounter either.
+        </p>
+        <p>
+          An Indian lawyer doesn&apos;t just know the law.
+          <br />
+          They know <em>how that law actually works in Indian courts.</em>
+        </p>
+        <p>
+          AI needs to learn <u>those mental models.</u>
         </p>
 
         <h2 className="pt-8 text-xl">What we build</h2>
-        <p>
-          <span className="font-semibold text-foreground">Expert Network.</span>&nbsp;High-quality
-          human feedback and expert reasoning from verified Indian professionals.
-        </p>
-        <p>
-          <span className="font-semibold text-foreground">Custom Evaluations.</span> Local benchmarks
-          that test whether a model understands Indian nuances, and custom evaluations that measure
-          how well it performs on your specific use case.
-        </p>
-        <p>
-          <span className="font-semibold text-foreground">India-Native RL Environments.</span> Practice
-          environments built around popular platforms, enterprise systems and regulatory workflows,
-          allowing AI agents to learn and be tested on real Indian work.
-        </p>
-        <p>
-          <span className="font-semibold text-foreground">Proprietary Data.</span> We help enterprises
-          turn their operational knowledge and workflows into high-quality training data while
-          maintaining appropriate privacy and controls.
-        </p>
+        {buildBlocks.map((block) => (
+          <p key={block.title}>
+            <span className="font-semibold text-foreground">{block.title}</span>
+            <br />
+            {block.body}
+          </p>
+        ))}
 
-        <h2 className="pt-8 text-xl">Why this matters</h2>
+        <h2 className="pt-8 text-xl">Why now</h2>
         <p>
-          The next generation of AI won't just answer questions. <strong>It will do the work.</strong>
+          The next generation of AI won&apos;t just answer questions.{" "}
+          <strong>It will do the work.</strong>
         </p>
         <p>
-          And the quality of that work will depend on how well AI understands the world it is
-          operating in.
+          And the quality of that work will depend on how well AI understands the world in which it
+          operates.
         </p>
         <p>
-          The frontier models of today are being shaped by the expertise and environments of the
-          markets they come from. <em>We want to make sure India shapes them too.</em>
+          The models shaping the future are being trained and evaluated against the expertise and
+          environments available to them.
+        </p>
+        <p>
+          <em>We want India to help shape those models too.</em>
         </p>
 
         <h2 className="pt-8 text-xl">Who we work with</h2>
-        <p>We work with frontier AI companies building AI that is genuinely useful in India</p>
         <p>
-          <span className="font-semibold text-foreground">
-            Global, sovereign, and open-source AI companies.
-          </span>{" "}
-          We help them with hiring experts, accessing datasets, and independent evaluations to
-          improve regional utility and local relevance.
+          <span className="font-semibold text-foreground">Frontier AI companies</span>
+          <br />
+          Build models that are genuinely useful in India.
         </p>
         <p>
-          <span className="font-semibold text-foreground">Indian enterprises.</span> We help them
-          train AI on proprietary workflows and evaluate the right models (or combination) for their
-          specific needs.
+          <span className="font-semibold text-foreground">Indian enterprises</span>
+          <br />
+          Turn proprietary workflows into AI training infrastructure and evaluate models against
+          real business requirements.
         </p>
-        <p className="text-foreground">
-          <strong>Help us make AI better for India!</strong>&nbsp;
-          <a className="underline underline-offset-4" href="mailto:hello@superaibase.com">
-            Join Expert Network
+
+        <h2 className="pt-10 text-xl">Build AI that understands India.</h2>
+        <div className="flex flex-wrap items-center gap-3">
+          <a href={whatsappUrl} target="_blank" rel="noopener noreferrer" className={primaryCta}>
+            Talk to us
           </a>
+        </div>
+        <p className="pt-2">
+          <strong>Are you an expert?</strong>
         </p>
+        <div className="flex flex-wrap gap-3">
+          <ExpertNetworkDialog>
+            <button type="button" className={secondaryCta}>
+              Join the Expert Network
+            </button>
+          </ExpertNetworkDialog>
+        </div>
       </div>
     </article>
   );
