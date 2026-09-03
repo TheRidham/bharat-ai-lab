@@ -29,19 +29,15 @@ const secondaryCta =
 const buildBlocks = [
   {
     title: "Expert Network",
-    body: "India's highest-quality professional expertise.",
-  },
-  {
-    title: "Proprietary Data",
-    body: "Real-world knowledge and workflows turned into training data.",
+    body: "India's highest-quality professional experts for AI training and evaluation.",
   },
   {
     title: "Custom Evaluations",
-    body: "Benchmarks that measure whether AI actually works in India.",
+    body: "Benchmarks that measure whether AI works in India and for your specific use case.",
   },
   {
-    title: "India-Native RL Environments",
-    body: "Realistic environments where AI agents can practice Indian work.",
+    title: "India-Native Data & Environments (Coming Soon)",
+    body: "Real-world knowledge, and practice environments that help AI agents learn and perform Indian work.",
   },
 ];
 
