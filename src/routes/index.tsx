@@ -136,8 +136,8 @@ function Index() {
         <p>
           <span className="font-semibold text-foreground">Indian enterprises</span>
           <br />
-          Turn proprietary workflows into AI training infrastructure and evaluate models against
-          real business requirements.
+           Helping them train AI for proprietary workflows and evaluate models against real business
+           requirements.
         </p>
 
         <h2 className="pt-10 text-xl">Build AI that understands India.</h2>
