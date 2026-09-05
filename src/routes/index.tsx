@@ -44,7 +44,7 @@ function Index() {
   return (
     <article className="mx-auto max-w-2xl px-6 pt-24 pb-24">
       <div className="flex flex-col items-center gap-4 text-center">
-        <img src="/logo.png" alt="SuperAI Base logo" className="h-20 w-20" />
+        <img src="/logo.svg" alt="SuperAI Base logo" className="h-20 w-20" />
         <span className="text-2xl font-medium tracking-tight">SuperAI Base</span>
       </div>
 
