@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import logo from "../assets/logo-transparent.svg.asset.json";
+import logo from "../assets/logo.png.asset.json";
 import { ExpertNetworkDialog } from "@/components/ExpertNetworkDialog";
 
 const title = "SuperAI Base — Teaching AI how India works";
