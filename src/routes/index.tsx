@@ -1,4 +1,4 @@
-import { useState, type FormEvent } from "react";
+import { useState, type FormEvent, type ReactNode } from "react";
 import { createFileRoute } from "@tanstack/react-router";
 import { z } from "zod";
 import {
@@ -49,7 +49,15 @@ const inquirySchema = z.object({
     }),
 });
 
-type InquiryForm = z.infer<typeof inquirySchema>;
+type InquiryForm = {
+  contact_name: string;
+  business_name: string;
+  email: string;
+  phone: string;
+  business_type: string;
+  service_area: string;
+  website: string;
+};
 type FieldErrors = Partial<Record<keyof InquiryForm, string[]>>;
 
 const initialForm: InquiryForm = {
@@ -60,7 +68,7 @@ const initialForm: InquiryForm = {
   business_type: "",
   service_area: "",
   website: "",
-} as InquiryForm;
+  };
 
 const businessTypes = [
   { value: "healthcare", label: "Healthcare" },
@@ -157,20 +165,24 @@ function HomePage() {
 
     setIsSubmitting(true);
     setSubmissionState("idle");
-    const { error } = await supabase.from("business_inquiries").insert({
-      ...parsed.data,
-      website: parsed.data.website || null,
-    });
-    setIsSubmitting(false);
+    try {
+      const { error } = await supabase.from("business_inquiries").insert({
+        ...parsed.data,
+        website: parsed.data.website || null,
+      });
+      if (error) {
+        setSubmissionState("error");
+        return;
+      }
 
-    if (error) {
+      setForm(initialForm);
+      setErrors({});
+      setSubmissionState("success");
+    } catch {
       setSubmissionState("error");
-      return;
+    } finally {
+      setIsSubmitting(false);
     }
-
-    setForm(initialForm);
-    setErrors({});
-    setSubmissionState("success");
   }
 
   return (
@@ -378,7 +390,7 @@ function HomePage() {
   );
 }
 
-function FormField({ id, label, error, children }: { id: string; label: string; error?: string; children: React.ReactNode }) {
+function FormField({ id, label, error, children }: { id: string; label: string; error?: string; children: ReactNode }) {
   return (
     <div className="space-y-2">
       <Label htmlFor={id} className="text-sm font-medium">{label}</Label>
