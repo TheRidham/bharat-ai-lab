@@ -114,36 +114,27 @@ function RootShell({ children }: { children: ReactNode }) {
 
 const footerGroups = [
   {
-    title: "Experts",
+    title: "Services",
     links: [
-      { label: "Join the network", href: "mailto:experts@superaibase.com" },
-      { label: "How we work", href: "mailto:hello@superaibase.com" },
-      { label: "Domains we cover", href: "mailto:hello@superaibase.com" },
-      { label: "Expert FAQs", href: "mailto:experts@superaibase.com" },
+      { label: "AI visibility snapshot", href: "#contact" },
+      { label: "Local discovery", href: "#services" },
+      { label: "Visibility improvement", href: "#approach" },
     ],
   },
   {
-    title: "Research",
+    title: "Businesses",
     links: [
-      { label: "Satya Benchmarks", href: "mailto:research@superaibase.com" },
-      { label: "Bharat Environments", href: "mailto:research@superaibase.com" },
-      { label: "Custom Evaluations", href: "mailto:research@superaibase.com" },
-    ],
-  },
-  {
-    title: "Enterprise",
-    links: [
-      { label: "Hire Experts", href: "mailto:enterprise@superaibase.com" },
-      { label: "Access Datasets", href: "mailto:enterprise@superaibase.com" },
-      { label: "Data Monetization", href: "mailto:enterprise@superaibase.com" },
+      { label: "Healthcare", href: "#industries" },
+      { label: "Legal services", href: "#industries" },
+      { label: "Home services", href: "#industries" },
     ],
   },
   {
     title: "Company",
     links: [
-      { label: "Careers", href: "mailto:careers@superaibase.com" },
-      { label: "Privacy policy", href: "mailto:hello@superaibase.com" },
-      { label: "Terms of service", href: "mailto:hello@superaibase.com" },
+      { label: "Our approach", href: "#approach" },
+      { label: "Get in touch", href: "#contact" },
+      { label: "hello@superaibase.com", href: "mailto:hello@superaibase.com" },
     ],
   },
 ];
@@ -151,8 +142,8 @@ const footerGroups = [
 function SiteFooter() {
   return (
     <footer className="border-t border-border">
-      <div className="mx-auto max-w-2xl px-6 py-14">
-        <div className="grid grid-cols-2 gap-x-8 gap-y-10 sm:grid-cols-4">
+      <div className="mx-auto max-w-7xl px-5 py-12 sm:px-8 sm:py-14">
+        <div className="grid grid-cols-2 gap-x-8 gap-y-10 sm:grid-cols-3">
           {footerGroups.map((group) => (
             <div key={group.title}>
               <p className="text-sm font-medium text-foreground">{group.title}</p>
@@ -171,7 +162,7 @@ function SiteFooter() {
             </div>
           ))}
         </div>
-        <div className="mt-14 flex flex-col gap-3 border-t border-border pt-6 text-xs text-muted-foreground sm:flex-row sm:items-center sm:justify-between">
+        <div className="mt-12 flex flex-col gap-3 border-t border-border pt-6 text-xs text-muted-foreground sm:flex-row sm:items-center sm:justify-between">
           <p>&copy; {new Date().getFullYear()} SuperAI Base</p>
           <a href="mailto:hello@superaibase.com" className="hover:text-foreground">
             hello@superaibase.com
