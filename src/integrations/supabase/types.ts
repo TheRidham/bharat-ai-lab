@@ -14,6 +14,42 @@ export type Database = {
   }
   public: {
     Tables: {
+      business_inquiries: {
+        Row: {
+          business_name: string
+          business_type: string
+          contact_name: string
+          created_at: string
+          email: string
+          id: string
+          phone: string
+          service_area: string
+          website: string | null
+        }
+        Insert: {
+          business_name: string
+          business_type: string
+          contact_name: string
+          created_at?: string
+          email: string
+          id?: string
+          phone: string
+          service_area: string
+          website?: string | null
+        }
+        Update: {
+          business_name?: string
+          business_type?: string
+          contact_name?: string
+          created_at?: string
+          email?: string
+          id?: string
+          phone?: string
+          service_area?: string
+          website?: string | null
+        }
+        Relationships: []
+      }
       expert_applications: {
         Row: {
           created_at: string
