@@ -1,0 +1,3 @@
+- [ ] Replace the existing India-focused homepage with a U.S.-focused SMB AI visibility site.
+- [ ] Connect an inquiry form to Lovable Cloud with validated inputs and clear success/error states.
+- [ ] Verify the main page and form flow in the browser, then confirm the build is healthy.
